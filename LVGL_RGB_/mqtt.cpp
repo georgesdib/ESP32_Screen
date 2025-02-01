@@ -33,7 +33,7 @@ void mqttReconnect()
   {
     Serial.print("Attempting MQTT connection...");
     // Attempt to connect
-    if (mqttClient.connect("ESP32TouchScreen"))
+    if (mqttClient.connect("ESP32TouchScreen", MQTT_USERNAME, MQTT_PASSWORD))
     {
       Serial.println("connected");
       // Subscribe to get updates on states

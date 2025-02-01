@@ -1,6 +1,7 @@
 secrets.h
 libraries/LovyanGFX
-libraries/lvgl-3
+libraries/lvgl*
 libraries/PubSubClient
+libraries/package*
 
 .DS_Store
